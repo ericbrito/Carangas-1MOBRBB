@@ -3,7 +3,7 @@
 //  Carangas
 //
 //  Created by Alves Brito, Eric(AWF) on 04/08/22.
-//
+// Teste
 
 import Foundation
 protocol VisualizationViewModelProtocol {
