@@ -11,6 +11,16 @@ final class CarsListingViewModel {
 	private var service = CarService()
 	private var cars: [Car] = []
 	
+	//Dependency Injection
+	
+	//Property Injection
+	private weak var coordinator: CarsListingCoordinator?
+	
+	//Constructor Injection
+	init(coordinator: CarsListingCoordinator) {
+		self.coordinator = coordinator
+	}
+	
 	var numberOfRows: Int {
 		cars.count
 	}

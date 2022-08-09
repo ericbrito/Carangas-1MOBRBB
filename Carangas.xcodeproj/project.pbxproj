@@ -10,7 +10,6 @@
 		5C1A679228626EF600366E5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A679128626EF600366E5E /* AppDelegate.swift */; };
 		5C1A679428626EF600366E5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A679328626EF600366E5E /* SceneDelegate.swift */; };
 		5C1A679628626EF600366E5E /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A679528626EF600366E5E /* CarViewController.swift */; };
-		5C1A679928626EF600366E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1A679728626EF600366E5E /* Main.storyboard */; };
 		5C1A679B28626EF800366E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C1A679A28626EF800366E5E /* Assets.xcassets */; };
 		5C1A679E28626EF800366E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1A679C28626EF800366E5E /* LaunchScreen.storyboard */; };
 		5C1A67A628626F4700366E5E /* CarsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A67A528626F4700366E5E /* CarsTableViewController.swift */; };
@@ -26,6 +25,11 @@
 		5CC2EA37289C895700EEB71E /* CarCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2EA36289C895700EEB71E /* CarCellViewModel.swift */; };
 		5CC2EA39289C90DB00EEB71E /* CarVisualizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2EA38289C90DB00EEB71E /* CarVisualizationViewModel.swift */; };
 		5CC2EA3B289C933F00EEB71E /* CarFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC2EA3A289C933F00EEB71E /* CarFormViewModel.swift */; };
+		5CF7A88A28A3163100B823A1 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7A88928A3163100B823A1 /* Coordinator.swift */; };
+		5CF7A88D28A319CA00B823A1 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7A88C28A319CA00B823A1 /* AppCoordinator.swift */; };
+		5CF7A89028A31D3D00B823A1 /* CarsListingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7A88F28A31D3D00B823A1 /* CarsListingCoordinator.swift */; };
+		5CF7A89328A321AE00B823A1 /* UIStoryboard+Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7A89228A321AE00B823A1 /* UIStoryboard+Names.swift */; };
+		5CF7A89528A322A500B823A1 /* UIViewController+Instantiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7A89428A322A500B823A1 /* UIViewController+Instantiate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +37,6 @@
 		5C1A679128626EF600366E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C1A679328626EF600366E5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5C1A679528626EF600366E5E /* CarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewController.swift; sourceTree = "<group>"; };
-		5C1A679828626EF600366E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C1A679A28626EF800366E5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C1A679D28626EF800366E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C1A679F28626EF800366E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +53,11 @@
 		5CC2EA36289C895700EEB71E /* CarCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCellViewModel.swift; sourceTree = "<group>"; };
 		5CC2EA38289C90DB00EEB71E /* CarVisualizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarVisualizationViewModel.swift; sourceTree = "<group>"; };
 		5CC2EA3A289C933F00EEB71E /* CarFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFormViewModel.swift; sourceTree = "<group>"; };
+		5CF7A88928A3163100B823A1 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		5CF7A88C28A319CA00B823A1 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5CF7A88F28A31D3D00B823A1 /* CarsListingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsListingCoordinator.swift; sourceTree = "<group>"; };
+		5CF7A89228A321AE00B823A1 /* UIStoryboard+Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Names.swift"; sourceTree = "<group>"; };
+		5CF7A89428A322A500B823A1 /* UIViewController+Instantiate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Instantiate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,7 @@
 			children = (
 				5C1A679128626EF600366E5E /* AppDelegate.swift */,
 				5C1A679328626EF600366E5E /* SceneDelegate.swift */,
+				5CF7A88B28A319B500B823A1 /* Coordinator */,
 				5C9159F72862754100A0BD83 /* View */,
 			);
 			path = Main;
@@ -104,7 +113,6 @@
 		5C9159F72862754100A0BD83 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5C1A679728626EF600366E5E /* Main.storyboard */,
 				5C1A679C28626EF800366E5E /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -123,6 +131,7 @@
 		5C9159F92862759A00A0BD83 /* Listing */ = {
 			isa = PBXGroup;
 			children = (
+				5CF7A88E28A31D1F00B823A1 /* Coordinator */,
 				5CC2EA25289C7FFA00EEB71E /* ViewModel */,
 				5CC2EA24289C7FF400EEB71E /* View */,
 				5CC2EA23289C7FDE00EEB71E /* Controller */,
@@ -153,6 +162,8 @@
 		5C9159FD28627D6500A0BD83 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				5CF7A89128A3218300B823A1 /* Extensions */,
+				5CF7A88828A3161900B823A1 /* Protocols */,
 				5C915A0128627F9C00A0BD83 /* Services */,
 				5C9159FE28627D7600A0BD83 /* Model */,
 			);
@@ -250,6 +261,39 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		5CF7A88828A3161900B823A1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5CF7A88928A3163100B823A1 /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		5CF7A88B28A319B500B823A1 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5CF7A88C28A319CA00B823A1 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		5CF7A88E28A31D1F00B823A1 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5CF7A88F28A31D3D00B823A1 /* CarsListingCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		5CF7A89128A3218300B823A1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5CF7A89228A321AE00B823A1 /* UIStoryboard+Names.swift */,
+				5CF7A89428A322A500B823A1 /* UIViewController+Instantiate.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -312,7 +356,6 @@
 				5C1A679E28626EF800366E5E /* LaunchScreen.storyboard in Resources */,
 				5C1A679B28626EF800366E5E /* Assets.xcassets in Resources */,
 				5CC2EA2D289C822300EEB71E /* Form.storyboard in Resources */,
-				5C1A679928626EF600366E5E /* Main.storyboard in Resources */,
 				5CC2EA31289C830200EEB71E /* Listing.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,12 +373,17 @@
 				5C1A679628626EF600366E5E /* CarViewController.swift in Sources */,
 				5C915A0328627FB400A0BD83 /* CarService.swift in Sources */,
 				5CC2EA35289C87CD00EEB71E /* CarTableViewCell.swift in Sources */,
+				5CF7A88A28A3163100B823A1 /* Coordinator.swift in Sources */,
 				5CC2EA33289C837A00EEB71E /* CarsListingViewModel.swift in Sources */,
 				5CC2EA37289C895700EEB71E /* CarCellViewModel.swift in Sources */,
 				5CC2EA3B289C933F00EEB71E /* CarFormViewModel.swift in Sources */,
 				5C915A0028627D9300A0BD83 /* Car.swift in Sources */,
+				5CF7A89528A322A500B823A1 /* UIViewController+Instantiate.swift in Sources */,
+				5CF7A89328A321AE00B823A1 /* UIStoryboard+Names.swift in Sources */,
 				5C1A67A828626F8E00366E5E /* CarFormViewController.swift in Sources */,
+				5CF7A88D28A319CA00B823A1 /* AppCoordinator.swift in Sources */,
 				5C1A679228626EF600366E5E /* AppDelegate.swift in Sources */,
+				5CF7A89028A31D3D00B823A1 /* CarsListingCoordinator.swift in Sources */,
 				5C1A679428626EF600366E5E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,14 +391,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5C1A679728626EF600366E5E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C1A679828626EF600366E5E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5C1A679C28626EF800366E5E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -487,7 +527,6 @@
 				INFOPLIST_FILE = Carangas/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -514,7 +553,6 @@
 				INFOPLIST_FILE = Carangas/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
