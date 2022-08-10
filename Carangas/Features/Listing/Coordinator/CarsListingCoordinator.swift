@@ -21,4 +21,11 @@ final class CarsListingCoordinator: Coordinator {
 		viewController.viewModel = CarsListingViewModel(coordinator: self)
 		navigationController.pushViewController(viewController, animated: false)
 	}
+	
+	func showCar(_ car: Car) {
+		let childCoordinator = CarVisualizationCoordinator(navigationController: navigationController, car: car)
+		add(childCoordinator: childCoordinator)
+		childCoordinator.parentCoordinator = self
+		childCoordinator.start()
+	}
 }

@@ -40,9 +40,6 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="Ulf-Tp-MyR" kind="show" id="Xuv-Tl-H4k"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -51,37 +48,13 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Carangas" id="iJm-8J-5x3">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="11Q-dD-sEU">
-                            <connections>
-                                <segue destination="QoG-sb-ti1" kind="show" id="wOu-bV-19c"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="11Q-dD-sEU"/>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u20-Kb-8f1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="665" y="111"/>
-        </scene>
-        <!--Form-->
-        <scene sceneID="uia-Aa-1Me">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Form" id="QoG-sb-ti1" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="Sab-dJ-2Kj"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="d4G-ql-k0G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1317" y="54"/>
-        </scene>
-        <!--Visualization-->
-        <scene sceneID="TWi-Un-ZMo">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Visualization" id="Ulf-Tp-MyR" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="6hg-OA-Q6n"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nu-ZD-f0Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1355" y="180"/>
         </scene>
     </scenes>
     <resources>

@@ -25,12 +25,12 @@ final class CarsTableViewController: UITableViewController {
 		loadCars()
 	}
 	
-	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-		guard let vc = segue.destination as? CarViewController,
-			  let indexPath = tableView.indexPathForSelectedRow else { return }
-		
-		vc.viewModel = viewModel?.getCarVisualizationViewModelAt(indexPath)
-	}
+//	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//		guard let vc = segue.destination as? CarViewController,
+//			  let indexPath = tableView.indexPathForSelectedRow else { return }
+//		
+//		vc.viewModel = viewModel?.getCarVisualizationViewModelAt(indexPath)
+//	}
 	
 	private func loadCars() {
 		viewModel?.loadCars { [weak self] result in
@@ -74,5 +74,9 @@ final class CarsTableViewController: UITableViewController {
 				}
 			}
 		}
+	}
+	
+	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+		viewModel?.showCarAt(indexPath)
 	}
 }
