@@ -30,4 +30,8 @@ final class CarVisualizationCoordinator: Coordinator {
 		childCoordinator.parentCoordinator = self
 		childCoordinator.start()
 	}
+	
+	deinit {
+		print("CarVisualizationCoordinator deinit")
+	}
 }

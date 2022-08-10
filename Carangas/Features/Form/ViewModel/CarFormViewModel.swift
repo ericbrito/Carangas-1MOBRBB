@@ -7,28 +7,19 @@
 
 import Foundation
 
-/*
-protocol CarFormViewModelDelegate: AnyObject {
-	func onCarCreated(result: Result<Void, CarServiceError>)
-	func onCarUpdated(result: Result<Void, CarServiceError>)
-}
-*/
 
 final class CarFormViewModel {
 	private var car: Car
 	private let service = CarService()
-	
-	//weak var delegate: CarFormViewModelDelegate?
-	var onCarCreated: ((Result<Void, CarServiceError>) -> Void)?
-	var onCarUpdated: ((Result<Void, CarServiceError>) -> Void)?
-	
+	private weak var coordinator: CarFormCoordinator?
 	
 	private var isEditing: Bool {
 		car._id != nil
 	}
 	
-	init(car: Car? = nil) {
+	init(car: Car? = nil, coordinator: CarFormCoordinator) {
 		self.car = car ?? Car()
+		self.coordinator = coordinator
 	}
 	
 	var title: String {
@@ -63,14 +54,17 @@ final class CarFormViewModel {
 		
 		if !isEditing {
 			service.createCar(car) { [weak self] result in
-				//self?.delegate?.onCarCreated(result: result)
-				self?.onCarCreated?(result)
+				self?.coordinator?.onSave(result: result)
 			}
 		} else {
 			service.updateCar(car) { [weak self] result in
-				//self?.delegate?.onCarUpdated(result: result)
-				self?.onCarUpdated?(result)
+				self?.coordinator?.onSave(result: result)
 			}
 		}
+	}
+	
+	deinit {
+		print("CarFormViewModel deinit")
+		coordinator?.childDidFinish(nil)
 	}
 }

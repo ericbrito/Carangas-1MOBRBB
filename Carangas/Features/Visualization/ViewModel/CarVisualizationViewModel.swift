@@ -11,7 +11,6 @@ protocol VisualizationViewModelProtocol {
 	var brand: String { get }
 	var gasType: String { get }
 	var price: String { get }
-	func getCarFormViewModel() -> CarFormViewModel
 	func showForm()
 }
 
@@ -48,11 +47,12 @@ final class CarVisualizationViewModel: VisualizationViewModelProtocol {
 		return "Preço: \(price)"
 	}
 	
-	func getCarFormViewModel() -> CarFormViewModel {
-		CarFormViewModel(car: car)
-	}
-	
 	func showForm() {
 		coordinator?.showForm()
+	}
+	
+	deinit {
+		print("CarVisualizationViewModel deinit")
+		coordinator?.childDidFinish(nil)
 	}
 }

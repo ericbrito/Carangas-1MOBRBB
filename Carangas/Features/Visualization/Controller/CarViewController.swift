@@ -26,4 +26,8 @@ final class CarViewController: UIViewController {
 	@IBAction func edit(_ sender: UIBarButtonItem) {
 		viewModel?.showForm()
 	}
+	
+	deinit {
+		print("CarViewController deinit")
+	}
 }

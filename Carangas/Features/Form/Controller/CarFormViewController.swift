@@ -19,10 +19,6 @@ final class CarFormViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		viewModel = viewModel ?? CarFormViewModel()
-		viewModel?.onCarCreated = onCarCreated
-		viewModel?.onCarUpdated = onCarUpdated
-		
 		title = viewModel?.title
 		textFieldBrand.text = viewModel?.brand
 		textFieldName.text = viewModel?.name
@@ -38,40 +34,7 @@ final class CarFormViewController: UIViewController {
 						gasTypeIndex: segmentedControlGasType.selectedSegmentIndex)
 	}
 	
-	private func showResult(_ result: Result<Void, CarServiceError>) {
-		switch result {
-		case .success:
-			DispatchQueue.main.async {
-				self.navigationController?.popViewController(animated: true)
-			}
-		case .failure(let apiError):
-			print(apiError.errorMessage)
-		}
-	}
-	
-	//MARK: - Injetando closures (MVVM)
-	func onCarCreated(result: Result<Void, CarServiceError>) {
-		print("Viewmodel avisou que o carro pode ter sido criado!!")
-		showResult(result)
-	}
-	
-	func onCarUpdated(result: Result<Void, CarServiceError>) {
-		print("Viewmodel avisou que o carro pode ter sido alterado!!")
-		showResult(result)
+	deinit {
+		print("CarFormViewController deinit")
 	}
 }
-
-/*
-//MARK: - Utilizando delegate (MVP)
-extension CarFormViewController: CarFormViewModelDelegate {
-	func onCarCreated(result: Result<Void, CarServiceError>) {
-		print("Viewmodel avisou que o carro pode ter sido criado!!")
-		showResult(result)
-	}
-	
-	func onCarUpdated(result: Result<Void, CarServiceError>) {
-		print("Viewmodel avisou que o carro pode ter sido alterado!!")
-		showResult(result)
-	}
-}
-*/
