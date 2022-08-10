@@ -59,6 +59,10 @@ final class CarsListingViewModel {
 		let car = cars[indexPath.row]
 		coordinator?.showCar(car)
 	}
+	
+	func showCarCreation() {
+		coordinator?.showCarCreation()
+	}
 }
 
 

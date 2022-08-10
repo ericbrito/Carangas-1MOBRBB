@@ -25,13 +25,6 @@ final class CarsTableViewController: UITableViewController {
 		loadCars()
 	}
 	
-//	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//		guard let vc = segue.destination as? CarViewController,
-//			  let indexPath = tableView.indexPathForSelectedRow else { return }
-//		
-//		vc.viewModel = viewModel?.getCarVisualizationViewModelAt(indexPath)
-//	}
-	
 	private func loadCars() {
 		viewModel?.loadCars { [weak self] result in
 			switch result {
@@ -43,6 +36,10 @@ final class CarsTableViewController: UITableViewController {
 				print(apiError.errorMessage)
 			}
 		}
+	}
+	
+	@IBAction func showCarCreation(_ sender: UIBarButtonItem) {
+		viewModel?.showCarCreation()
 	}
 	
 	// MARK: - Table view data source

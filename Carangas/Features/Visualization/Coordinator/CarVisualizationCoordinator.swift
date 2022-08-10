@@ -20,7 +20,14 @@ final class CarVisualizationCoordinator: Coordinator {
 	
 	func start() {
 		let viewController = CarViewController.instantiateFromStoryboard(.visualization)
-		viewController.viewModel = CarVisualizationViewModel(car: car)
+		viewController.viewModel = CarVisualizationViewModel(car: car, coordinator: self)
 		navigationController.pushViewController(viewController, animated: true)
+	}
+	
+	func showForm() {
+		let childCoordinator = CarFormCoordinator(navigationController: navigationController, car: car)
+		add(childCoordinator: childCoordinator)
+		childCoordinator.parentCoordinator = self
+		childCoordinator.start()
 	}
 }

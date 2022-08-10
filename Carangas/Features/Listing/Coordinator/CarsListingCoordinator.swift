@@ -28,4 +28,11 @@ final class CarsListingCoordinator: Coordinator {
 		childCoordinator.parentCoordinator = self
 		childCoordinator.start()
 	}
+	
+	func showCarCreation() {
+		let childCoordinator = CarFormCoordinator(navigationController: navigationController)
+		add(childCoordinator: childCoordinator)
+		childCoordinator.parentCoordinator = self
+		childCoordinator.start()
+	}
 }

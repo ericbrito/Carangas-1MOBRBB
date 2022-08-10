@@ -12,6 +12,7 @@ protocol VisualizationViewModelProtocol {
 	var gasType: String { get }
 	var price: String { get }
 	func getCarFormViewModel() -> CarFormViewModel
+	func showForm()
 }
 
 final class CarVisualizationViewModel: VisualizationViewModelProtocol {
@@ -23,9 +24,11 @@ final class CarVisualizationViewModel: VisualizationViewModelProtocol {
 		numberFormatter.locale = Locale(identifier: "pt_BR")
 		return numberFormatter
 	}()
+	private weak var coordinator: CarVisualizationCoordinator?
 	
-	init(car: Car) {
+	init(car: Car, coordinator: CarVisualizationCoordinator) {
 		self.car = car
+		self.coordinator = coordinator
 	}
 	
 	var title: String {
@@ -47,5 +50,9 @@ final class CarVisualizationViewModel: VisualizationViewModelProtocol {
 	
 	func getCarFormViewModel() -> CarFormViewModel {
 		CarFormViewModel(car: car)
+	}
+	
+	func showForm() {
+		coordinator?.showForm()
 	}
 }

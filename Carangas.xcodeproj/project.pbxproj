@@ -31,6 +31,7 @@
 		5CF7A89328A321AE00B823A1 /* UIStoryboard+Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7A89228A321AE00B823A1 /* UIStoryboard+Names.swift */; };
 		5CF7A89528A322A500B823A1 /* UIViewController+Instantiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7A89428A322A500B823A1 /* UIViewController+Instantiate.swift */; };
 		5CF7A89828A3294800B823A1 /* CarVisualizationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7A89728A3294800B823A1 /* CarVisualizationCoordinator.swift */; };
+		5CF7A89B28A334A900B823A1 /* CarFormCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7A89A28A334A900B823A1 /* CarFormCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		5CF7A89228A321AE00B823A1 /* UIStoryboard+Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Names.swift"; sourceTree = "<group>"; };
 		5CF7A89428A322A500B823A1 /* UIViewController+Instantiate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Instantiate.swift"; sourceTree = "<group>"; };
 		5CF7A89728A3294800B823A1 /* CarVisualizationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarVisualizationCoordinator.swift; sourceTree = "<group>"; };
+		5CF7A89A28A334A900B823A1 /* CarFormCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFormCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 		5C9159FB286275AA00A0BD83 /* Form */ = {
 			isa = PBXGroup;
 			children = (
+				5CF7A89928A3349A00B823A1 /* Coordinator */,
 				5CC2EA2B289C804A00EEB71E /* ViewModel */,
 				5CC2EA2A289C804600EEB71E /* View */,
 				5CC2EA29289C804100EEB71E /* Controller */,
@@ -305,6 +308,14 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
+		5CF7A89928A3349A00B823A1 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5CF7A89A28A334A900B823A1 /* CarFormCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -383,6 +394,7 @@
 				5CC2EA39289C90DB00EEB71E /* CarVisualizationViewModel.swift in Sources */,
 				5C1A679628626EF600366E5E /* CarViewController.swift in Sources */,
 				5C915A0328627FB400A0BD83 /* CarService.swift in Sources */,
+				5CF7A89B28A334A900B823A1 /* CarFormCoordinator.swift in Sources */,
 				5CF7A89828A3294800B823A1 /* CarVisualizationCoordinator.swift in Sources */,
 				5CC2EA35289C87CD00EEB71E /* CarTableViewCell.swift in Sources */,
 				5CF7A88A28A3163100B823A1 /* Coordinator.swift in Sources */,

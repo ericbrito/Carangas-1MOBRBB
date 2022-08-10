@@ -23,8 +23,7 @@ final class CarViewController: UIViewController {
 		labelPrice.text = viewModel?.price
 	}
 	
-	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-		guard let vc = segue.destination as? CarFormViewController else { return }
-		vc.viewModel = viewModel?.getCarFormViewModel()
+	@IBAction func edit(_ sender: UIBarButtonItem) {
+		viewModel?.showForm()
 	}
 }
