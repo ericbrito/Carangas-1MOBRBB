@@ -10,7 +10,7 @@ import Foundation
 typealias CarListingProtocol = ShowCarProtocol & CreateCarProtocol & Coordinator
 
 final class CarsListingViewModel {
-	private var service = CarService()
+	private var service: CarServiceProtocol
 	private var cars: [Car] = []
 	
 	//Dependency Injection
@@ -19,7 +19,8 @@ final class CarsListingViewModel {
 	private weak var coordinator: CarListingProtocol?
 	
 	//Constructor Injection
-	init(coordinator: CarsListingCoordinator) {
+	init(service: CarServiceProtocol = CarService(), coordinator: CarListingProtocol) {
+		self.service = service
 		self.coordinator = coordinator
 	}
 	

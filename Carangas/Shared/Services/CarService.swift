@@ -7,7 +7,12 @@
 
 import Foundation
 
-final class CarService {
+protocol CarServiceProtocol {
+	func loadCars(onComplete: @escaping (Result<[Car], CarServiceError>) -> Void)
+	func deleteCar(_ car: Car, onComplete: @escaping (Result<Void, CarServiceError>) -> Void)
+}
+
+final class CarService: CarServiceProtocol {
 	private let basePath = "https://carangas.herokuapp.com/cars"
 	private let configuration: URLSessionConfiguration = {
 		let configuration = URLSessionConfiguration.default

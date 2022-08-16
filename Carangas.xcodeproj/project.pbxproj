@@ -14,6 +14,9 @@
 		5C1A679E28626EF800366E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1A679C28626EF800366E5E /* LaunchScreen.storyboard */; };
 		5C1A67A628626F4700366E5E /* CarsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A67A528626F4700366E5E /* CarsTableViewController.swift */; };
 		5C1A67A828626F8E00366E5E /* CarFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1A67A728626F8E00366E5E /* CarFormViewController.swift */; };
+		5C68F0FE28AC54D100CD697A /* CarangasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C68F0FD28AC54D100CD697A /* CarangasTests.swift */; };
+		5C68F10628AC55B900CD697A /* CarsListingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C68F10528AC55B900CD697A /* CarsListingViewModelTests.swift */; };
+		5C68F10928AC5E8F00CD697A /* CarServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C68F10828AC5E8F00CD697A /* CarServiceStub.swift */; };
 		5C915A0028627D9300A0BD83 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9159FF28627D9300A0BD83 /* Car.swift */; };
 		5C915A0328627FB400A0BD83 /* CarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C915A0228627FB400A0BD83 /* CarService.swift */; };
 		5C915A0528628D6400A0BD83 /* CarServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C915A0428628D6400A0BD83 /* CarServiceError.swift */; };
@@ -34,6 +37,16 @@
 		5CF7A89B28A334A900B823A1 /* CarFormCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7A89A28A334A900B823A1 /* CarFormCoordinator.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5C68F0FF28AC54D100CD697A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C1A678628626EF600366E5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C1A678D28626EF600366E5E;
+			remoteInfo = Carangas;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		5C1A678E28626EF600366E5E /* Carangas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carangas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1A679128626EF600366E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +57,10 @@
 		5C1A679F28626EF800366E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C1A67A528626F4700366E5E /* CarsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsTableViewController.swift; sourceTree = "<group>"; };
 		5C1A67A728626F8E00366E5E /* CarFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFormViewController.swift; sourceTree = "<group>"; };
+		5C68F0FB28AC54D100CD697A /* CarangasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarangasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C68F0FD28AC54D100CD697A /* CarangasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarangasTests.swift; sourceTree = "<group>"; };
+		5C68F10528AC55B900CD697A /* CarsListingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsListingViewModelTests.swift; sourceTree = "<group>"; };
+		5C68F10828AC5E8F00CD697A /* CarServiceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarServiceStub.swift; sourceTree = "<group>"; };
 		5C9159FF28627D9300A0BD83 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		5C915A0228627FB400A0BD83 /* CarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarService.swift; sourceTree = "<group>"; };
 		5C915A0428628D6400A0BD83 /* CarServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarServiceError.swift; sourceTree = "<group>"; };
@@ -72,6 +89,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C68F0F828AC54D100CD697A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				5C1A679028626EF600366E5E /* Carangas */,
+				5C68F0FC28AC54D100CD697A /* CarangasTests */,
 				5C1A678F28626EF600366E5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				5C1A678E28626EF600366E5E /* Carangas.app */,
+				5C68F0FB28AC54D100CD697A /* CarangasTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +127,32 @@
 				5C1A679F28626EF800366E5E /* Info.plist */,
 			);
 			path = Carangas;
+			sourceTree = "<group>";
+		};
+		5C68F0FC28AC54D100CD697A /* CarangasTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C68F10728AC5E4D00CD697A /* Stubs */,
+				5C68F10428AC552600CD697A /* Listing */,
+				5C68F0FD28AC54D100CD697A /* CarangasTests.swift */,
+			);
+			path = CarangasTests;
+			sourceTree = "<group>";
+		};
+		5C68F10428AC552600CD697A /* Listing */ = {
+			isa = PBXGroup;
+			children = (
+				5C68F10528AC55B900CD697A /* CarsListingViewModelTests.swift */,
+			);
+			path = Listing;
+			sourceTree = "<group>";
+		};
+		5C68F10728AC5E4D00CD697A /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				5C68F10828AC5E8F00CD697A /* CarServiceStub.swift */,
+			);
+			path = Stubs;
 			sourceTree = "<group>";
 		};
 		5C9159F62862753700A0BD83 /* Main */ = {
@@ -336,6 +388,24 @@
 			productReference = 5C1A678E28626EF600366E5E /* Carangas.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5C68F0FA28AC54D100CD697A /* CarangasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C68F10328AC54D100CD697A /* Build configuration list for PBXNativeTarget "CarangasTests" */;
+			buildPhases = (
+				5C68F0F728AC54D100CD697A /* Sources */,
+				5C68F0F828AC54D100CD697A /* Frameworks */,
+				5C68F0F928AC54D100CD697A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C68F10028AC54D100CD697A /* PBXTargetDependency */,
+			);
+			name = CarangasTests;
+			productName = CarangasTests;
+			productReference = 5C68F0FB28AC54D100CD697A /* CarangasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -348,6 +418,10 @@
 				TargetAttributes = {
 					5C1A678D28626EF600366E5E = {
 						CreatedOnToolsVersion = 13.4;
+					};
+					5C68F0FA28AC54D100CD697A = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 5C1A678D28626EF600366E5E;
 					};
 				};
 			};
@@ -365,6 +439,7 @@
 			projectRoot = "";
 			targets = (
 				5C1A678D28626EF600366E5E /* Carangas */,
+				5C68F0FA28AC54D100CD697A /* CarangasTests */,
 			);
 		};
 /* End PBXProject section */
@@ -379,6 +454,13 @@
 				5C1A679B28626EF800366E5E /* Assets.xcassets in Resources */,
 				5CC2EA2D289C822300EEB71E /* Form.storyboard in Resources */,
 				5CC2EA31289C830200EEB71E /* Listing.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C68F0F928AC54D100CD697A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +494,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C68F0F728AC54D100CD697A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C68F10928AC5E8F00CD697A /* CarServiceStub.swift in Sources */,
+				5C68F10628AC55B900CD697A /* CarsListingViewModelTests.swift in Sources */,
+				5C68F0FE28AC54D100CD697A /* CarangasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C68F10028AC54D100CD697A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1A678D28626EF600366E5E /* Carangas */;
+			targetProxy = 5C68F0FF28AC54D100CD697A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5C1A679C28626EF800366E5E /* LaunchScreen.storyboard */ = {
@@ -592,6 +692,42 @@
 			};
 			name = Release;
 		};
+		5C68F10128AC54D100CD697A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ericbrito.CarangasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carangas.app/Carangas";
+			};
+			name = Debug;
+		};
+		5C68F10228AC54D100CD697A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ericbrito.CarangasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carangas.app/Carangas";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -609,6 +745,15 @@
 			buildConfigurations = (
 				5C1A67A328626EF800366E5E /* Debug */,
 				5C1A67A428626EF800366E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C68F10328AC54D100CD697A /* Build configuration list for PBXNativeTarget "CarangasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C68F10128AC54D100CD697A /* Debug */,
+				5C68F10228AC54D100CD697A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
