@@ -17,6 +17,12 @@
 		5C68F0FE28AC54D100CD697A /* CarangasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C68F0FD28AC54D100CD697A /* CarangasTests.swift */; };
 		5C68F10628AC55B900CD697A /* CarsListingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C68F10528AC55B900CD697A /* CarsListingViewModelTests.swift */; };
 		5C68F10928AC5E8F00CD697A /* CarServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C68F10828AC5E8F00CD697A /* CarServiceStub.swift */; };
+		5C68F10C28AC6D6600CD697A /* CarViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C68F10B28AC6D6600CD697A /* CarViewControllerTests.swift */; };
+		5C68F10F28AC72C600CD697A /* CarServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C68F10E28AC72C600CD697A /* CarServiceTests.swift */; };
+		5C68F11728AC79D200CD697A /* CarangasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C68F11628AC79D200CD697A /* CarangasUITests.swift */; };
+		5C68F11928AC79D200CD697A /* CarangasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C68F11828AC79D200CD697A /* CarangasUITestsLaunchTests.swift */; };
+		5C68F12628AC81C700CD697A /* CarangasSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C68F12528AC81C700CD697A /* CarangasSnapshotTests.swift */; };
+		5C68F12E28AC81E200CD697A /* iOSSnapshotTestCase in Frameworks */ = {isa = PBXBuildFile; productRef = 5C68F12D28AC81E200CD697A /* iOSSnapshotTestCase */; };
 		5C915A0028627D9300A0BD83 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9159FF28627D9300A0BD83 /* Car.swift */; };
 		5C915A0328627FB400A0BD83 /* CarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C915A0228627FB400A0BD83 /* CarService.swift */; };
 		5C915A0528628D6400A0BD83 /* CarServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C915A0428628D6400A0BD83 /* CarServiceError.swift */; };
@@ -45,6 +51,20 @@
 			remoteGlobalIDString = 5C1A678D28626EF600366E5E;
 			remoteInfo = Carangas;
 		};
+		5C68F11A28AC79D200CD697A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C1A678628626EF600366E5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C1A678D28626EF600366E5E;
+			remoteInfo = Carangas;
+		};
+		5C68F12728AC81C700CD697A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C1A678628626EF600366E5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C1A678D28626EF600366E5E;
+			remoteInfo = Carangas;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +81,13 @@
 		5C68F0FD28AC54D100CD697A /* CarangasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarangasTests.swift; sourceTree = "<group>"; };
 		5C68F10528AC55B900CD697A /* CarsListingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsListingViewModelTests.swift; sourceTree = "<group>"; };
 		5C68F10828AC5E8F00CD697A /* CarServiceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarServiceStub.swift; sourceTree = "<group>"; };
+		5C68F10B28AC6D6600CD697A /* CarViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewControllerTests.swift; sourceTree = "<group>"; };
+		5C68F10E28AC72C600CD697A /* CarServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarServiceTests.swift; sourceTree = "<group>"; };
+		5C68F11428AC79D200CD697A /* CarangasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarangasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C68F11628AC79D200CD697A /* CarangasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarangasUITests.swift; sourceTree = "<group>"; };
+		5C68F11828AC79D200CD697A /* CarangasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarangasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C68F12328AC81C700CD697A /* CarangasSnapshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarangasSnapshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C68F12528AC81C700CD697A /* CarangasSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarangasSnapshotTests.swift; sourceTree = "<group>"; };
 		5C9159FF28627D9300A0BD83 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		5C915A0228627FB400A0BD83 /* CarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarService.swift; sourceTree = "<group>"; };
 		5C915A0428628D6400A0BD83 /* CarServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarServiceError.swift; sourceTree = "<group>"; };
@@ -96,6 +123,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C68F11128AC79D200CD697A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C68F12028AC81C700CD697A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C68F12E28AC81E200CD697A /* iOSSnapshotTestCase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,6 +146,8 @@
 			children = (
 				5C1A679028626EF600366E5E /* Carangas */,
 				5C68F0FC28AC54D100CD697A /* CarangasTests */,
+				5C68F11528AC79D200CD697A /* CarangasUITests */,
+				5C68F12428AC81C700CD697A /* CarangasSnapshotTests */,
 				5C1A678F28626EF600366E5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +157,8 @@
 			children = (
 				5C1A678E28626EF600366E5E /* Carangas.app */,
 				5C68F0FB28AC54D100CD697A /* CarangasTests.xctest */,
+				5C68F11428AC79D200CD697A /* CarangasUITests.xctest */,
+				5C68F12328AC81C700CD697A /* CarangasSnapshotTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +178,8 @@
 		5C68F0FC28AC54D100CD697A /* CarangasTests */ = {
 			isa = PBXGroup;
 			children = (
+				5C68F10D28AC72B300CD697A /* Service */,
+				5C68F10A28AC6D3C00CD697A /* Visualization */,
 				5C68F10728AC5E4D00CD697A /* Stubs */,
 				5C68F10428AC552600CD697A /* Listing */,
 				5C68F0FD28AC54D100CD697A /* CarangasTests.swift */,
@@ -153,6 +201,39 @@
 				5C68F10828AC5E8F00CD697A /* CarServiceStub.swift */,
 			);
 			path = Stubs;
+			sourceTree = "<group>";
+		};
+		5C68F10A28AC6D3C00CD697A /* Visualization */ = {
+			isa = PBXGroup;
+			children = (
+				5C68F10B28AC6D6600CD697A /* CarViewControllerTests.swift */,
+			);
+			path = Visualization;
+			sourceTree = "<group>";
+		};
+		5C68F10D28AC72B300CD697A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5C68F10E28AC72C600CD697A /* CarServiceTests.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5C68F11528AC79D200CD697A /* CarangasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C68F11628AC79D200CD697A /* CarangasUITests.swift */,
+				5C68F11828AC79D200CD697A /* CarangasUITestsLaunchTests.swift */,
+			);
+			path = CarangasUITests;
+			sourceTree = "<group>";
+		};
+		5C68F12428AC81C700CD697A /* CarangasSnapshotTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C68F12528AC81C700CD697A /* CarangasSnapshotTests.swift */,
+			);
+			path = CarangasSnapshotTests;
 			sourceTree = "<group>";
 		};
 		5C9159F62862753700A0BD83 /* Main */ = {
@@ -406,6 +487,45 @@
 			productReference = 5C68F0FB28AC54D100CD697A /* CarangasTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		5C68F11328AC79D200CD697A /* CarangasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C68F11C28AC79D200CD697A /* Build configuration list for PBXNativeTarget "CarangasUITests" */;
+			buildPhases = (
+				5C68F11028AC79D200CD697A /* Sources */,
+				5C68F11128AC79D200CD697A /* Frameworks */,
+				5C68F11228AC79D200CD697A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C68F11B28AC79D200CD697A /* PBXTargetDependency */,
+			);
+			name = CarangasUITests;
+			productName = CarangasUITests;
+			productReference = 5C68F11428AC79D200CD697A /* CarangasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5C68F12228AC81C700CD697A /* CarangasSnapshotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C68F12928AC81C700CD697A /* Build configuration list for PBXNativeTarget "CarangasSnapshotTests" */;
+			buildPhases = (
+				5C68F11F28AC81C700CD697A /* Sources */,
+				5C68F12028AC81C700CD697A /* Frameworks */,
+				5C68F12128AC81C700CD697A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C68F12828AC81C700CD697A /* PBXTargetDependency */,
+			);
+			name = CarangasSnapshotTests;
+			packageProductDependencies = (
+				5C68F12D28AC81E200CD697A /* iOSSnapshotTestCase */,
+			);
+			productName = CarangasSnapshotTests;
+			productReference = 5C68F12328AC81C700CD697A /* CarangasSnapshotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -423,6 +543,14 @@
 						CreatedOnToolsVersion = 13.4;
 						TestTargetID = 5C1A678D28626EF600366E5E;
 					};
+					5C68F11328AC79D200CD697A = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 5C1A678D28626EF600366E5E;
+					};
+					5C68F12228AC81C700CD697A = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 5C1A678D28626EF600366E5E;
+					};
 				};
 			};
 			buildConfigurationList = 5C1A678928626EF600366E5E /* Build configuration list for PBXProject "Carangas" */;
@@ -434,12 +562,17 @@
 				Base,
 			);
 			mainGroup = 5C1A678528626EF600366E5E;
+			packageReferences = (
+				5C68F12C28AC81E200CD697A /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */,
+			);
 			productRefGroup = 5C1A678F28626EF600366E5E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				5C1A678D28626EF600366E5E /* Carangas */,
 				5C68F0FA28AC54D100CD697A /* CarangasTests */,
+				5C68F11328AC79D200CD697A /* CarangasUITests */,
+				5C68F12228AC81C700CD697A /* CarangasSnapshotTests */,
 			);
 		};
 /* End PBXProject section */
@@ -458,6 +591,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5C68F0F928AC54D100CD697A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C68F11228AC79D200CD697A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C68F12128AC81C700CD697A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -500,7 +647,26 @@
 			files = (
 				5C68F10928AC5E8F00CD697A /* CarServiceStub.swift in Sources */,
 				5C68F10628AC55B900CD697A /* CarsListingViewModelTests.swift in Sources */,
+				5C68F10F28AC72C600CD697A /* CarServiceTests.swift in Sources */,
 				5C68F0FE28AC54D100CD697A /* CarangasTests.swift in Sources */,
+				5C68F10C28AC6D6600CD697A /* CarViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C68F11028AC79D200CD697A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C68F11928AC79D200CD697A /* CarangasUITestsLaunchTests.swift in Sources */,
+				5C68F11728AC79D200CD697A /* CarangasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C68F11F28AC81C700CD697A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C68F12628AC81C700CD697A /* CarangasSnapshotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +677,16 @@
 			isa = PBXTargetDependency;
 			target = 5C1A678D28626EF600366E5E /* Carangas */;
 			targetProxy = 5C68F0FF28AC54D100CD697A /* PBXContainerItemProxy */;
+		};
+		5C68F11B28AC79D200CD697A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1A678D28626EF600366E5E /* Carangas */;
+			targetProxy = 5C68F11A28AC79D200CD697A /* PBXContainerItemProxy */;
+		};
+		5C68F12828AC81C700CD697A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1A678D28626EF600366E5E /* Carangas */;
+			targetProxy = 5C68F12728AC81C700CD697A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -728,6 +904,76 @@
 			};
 			name = Release;
 		};
+		5C68F11D28AC79D200CD697A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ericbrito.CarangasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Carangas;
+			};
+			name = Debug;
+		};
+		5C68F11E28AC79D200CD697A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ericbrito.CarangasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Carangas;
+			};
+			name = Release;
+		};
+		5C68F12A28AC81C700CD697A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ericbrito.CarangasSnapshotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carangas.app/Carangas";
+			};
+			name = Debug;
+		};
+		5C68F12B28AC81C700CD697A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.ericbrito.CarangasSnapshotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carangas.app/Carangas";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -758,7 +1004,44 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5C68F11C28AC79D200CD697A /* Build configuration list for PBXNativeTarget "CarangasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C68F11D28AC79D200CD697A /* Debug */,
+				5C68F11E28AC79D200CD697A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C68F12928AC81C700CD697A /* Build configuration list for PBXNativeTarget "CarangasSnapshotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C68F12A28AC81C700CD697A /* Debug */,
+				5C68F12B28AC81C700CD697A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C68F12C28AC81E200CD697A /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uber/ios-snapshot-test-case.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C68F12D28AC81E200CD697A /* iOSSnapshotTestCase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C68F12C28AC81E200CD697A /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */;
+			productName = iOSSnapshotTestCase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5C1A678628626EF600366E5E /* Project object */;
 }
